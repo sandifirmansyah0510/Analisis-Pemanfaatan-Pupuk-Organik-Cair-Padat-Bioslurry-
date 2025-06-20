@@ -6,7 +6,7 @@
 **ASAL : BETS 10 , TANJUNG JABUNG BARAT**
 
 
-**🌿 Pupuk Organik Cair/Padat (Bioslurry)**
+# 🌿 Pupuk Organik Cair/Padat (Bioslurry)
 
 **🌱 Halo Sobat ETL! Selamat datang di repositori "Analisis Pemanfaatan Pupuk Organik Cair/Padat (Bioslurry)" 💧**
 
@@ -16,7 +16,7 @@ Kenapa ini penting? Karena bioslurry memiliki potensi besar sebagai solusi perta
 
 Yuk, kita gali bareng-bareng! Semoga proyek ini bisa jadi referensi, inspirasi, atau bahkan langkah awal ide besar berikutnya untuk kita semua🌏✨
 
-**🧭 1. Pendahuluan**
+# 🧭 1. Pendahuluan
 
 **📌 Latar Belakang**
 
@@ -50,7 +50,7 @@ Bioslurry adalah residu (limbah) yang dihasilkan dari proses pencernaan anaerobi
 |Masyarakat|Peningkatan kualitas produk pertanian dan kesadaran akan pertanian berkelanjutan
 
 
-**🗂️ 2. Pembuatan Data Set**
+# 🗂️ 2. Pembuatan Data Set
 
 Data yang digunakan dalam proyek ini adalah data sintetis yang disusun untuk mensimulasikan hubungan antara pemanfaatan bioslurry, produktivitas lahan, penggunaan pupuk kimia, dan jumlah limbah organik yang dikelola di Indonesia.
 
@@ -105,9 +105,9 @@ data = pd.DataFrame({
 print(data)
 ```
 Berikut adalah data hasil generate yang dihasilkan melalui kode python diatas:
-(**placeholder untuk tabel data hasil generate*)
+(*placeholder untuk tabel data hasil generate*)
 
-**3. Analisis Korelasi dan Regresi**
+# 3. Analisis Korelasi dan Regresi
 
 **1. Analisis Korelasi**
 
@@ -180,7 +180,7 @@ Dan berikut hasil analisis regresi yang kita dapatkan dari data generate sebelum
   - Intercept: (*placeholder untuk nilai*)
   - R-squared: (*placeholder untuk nilai*)
 
-**📚 4. Penjelasan**
+# 📚 4. Penjelasan
 
 **1. Korelasi Bioslurry - Produktivitas Lahan**
 
@@ -275,7 +275,7 @@ Berdasarkan hasil analisis regresi dan korelasi yang menunjukkan bahwa (*placeho
 - Beri **insentif pajak atau dukungan finansial** bagi perusahaan yang berinvestasi dalam teknologi biogas dan pengolahan bioslurry.
 - Promosikan **produk pertanian organik** yang dihasilkan dengan bioslurry untuk meningkatkan permintaan pasar.
 
-**5. Kesimpulan**
+# 5. Kesimpulan
 
 Dalam upaya pemerintah melakukan transisi menuju pertanian berkelanjutan, pemanfaatan pupuk organik seperti bioslurry adalah langkah krusial yang tidak mudah dan akan selalu menemukan tantangan. Kita *Exo Techno Leader* sebagai generasi muda memegang peran penting dalam menjaga keberlanjutan sektor pertanian dan lingkungan. Melalui analisis sederhana ini, meskipun menggunakan data sintetis, kita telah menunjukkan bahwa data dapat menjadi alat kritis untuk memahami potensi bioslurry, dampaknya terhadap produktivitas lahan dan penggunaan pupuk kimia, serta efektivitas kebijakan. Studi ini tidak hanya menjadi contoh teknis, tetapi juga membuka ruang untuk riset lebih lanjut dengan data nyata sebagai fondasi perubahan kebijakan berbasis bukti.
 
