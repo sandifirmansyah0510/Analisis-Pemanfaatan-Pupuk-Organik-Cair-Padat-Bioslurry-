@@ -1,18 +1,24 @@
 # Analisis-Pemanfaatan-Pupuk-Organik-Cair-Padat-Bioslurry-
+**NAMA : M SANDI FIRMANSYAH**
 
-🌿 Pupuk Organik Cair/Padat (Bioslurry)
+**ABSEN : 10.006.DB2025**
 
-🌱 Halo Sobat ETL! Selamat datang di repositori "Analisis Pemanfaatan Pupuk Organik Cair/Padat (Bioslurry)" 💧
+**ASAL : BETS 10 , TANJUNG JABUNG BARAT**
 
-Proyek ini dibuat dalam menyelesaikan week task, agar kita lebih peduli lingkungan dan tertarik dengan data! Di sini kita akan mengulas hubungan antara pemanfaatan bioslurry di Indonesia dari tahun 2010 hingga 2024.
 
-Kenapa ini penting? Karena bioslurry memiliki potensi besar sebagai solusi pertanian berkelanjutan yang ramah lingkungan, sekaligus mengurangi ketergantungan pada pupuk kimia. Lewat analisis data dan visualisasi, kita coba cari tahu seberapa besar dampaknya terhadap produktivitas pertanian dan kesehatan tanah, serta bagaimana data ini bisa bantu mendukung transisi menuju pertanian organik dan berkelanjutan.
+**🌿 Pupuk Organik Cair/Padat (Bioslurry)**
+
+**🌱 Halo Sobat ETL! Selamat datang di repositori "Analisis Pemanfaatan Pupuk Organik Cair/Padat (Bioslurry)" 💧**
+
+Proyek ini dibuat dalam menyelesaikan week task, agar kita lebih peduli lingkungan dan tertarik dengan data! Di sini kita akan mengulas hubungan antara **pemanfaatan bioslurry** di Indonesia dari tahun 2010 hingga 2024.
+
+Kenapa ini penting? Karena bioslurry memiliki potensi besar sebagai solusi pertanian berkelanjutan yang ramah lingkungan, sekaligus mengurangi ketergantungan pada pupuk kimia. Lewat analisis data dan visualisasi, kita coba cari tahu seberapa besar dampaknya terhadap produktivitas pertanian dan kesehatan tanah, serta bagaimana data ini bisa bantu mendukung **transisi menuju pertanian organik dan berkelanjutan.**
 
 Yuk, kita gali bareng-bareng! Semoga proyek ini bisa jadi referensi, inspirasi, atau bahkan langkah awal ide besar berikutnya untuk kita semua🌏✨
 
-🧭 1. Pendahuluan
+**🧭 1. Pendahuluan**
 
-📌 Latar Belakang
+**📌 Latar Belakang**
 
 Peningkatan produksi pertanian yang intensif telah mendorong penggunaan pupuk kimia secara masif. Meskipun mampu meningkatkan hasil panen dalam jangka pendek, penggunaan pupuk kimia yang berlebihan telah menimbulkan berbagai masalah lingkungan, seperti degradasi tanah, pencemaran air, dan emisi gas rumah kaca. Perubahan iklim global dan kesadaran akan pentingnya keberlanjutan telah mendorong dunia untuk mencari solusi pertanian yang lebih ramah lingkungan.
 
@@ -21,10 +27,10 @@ Pupuk organik, khususnya bioslurry (limbah organik hasil pengolahan biogas, baik
 Indonesia sebagai negara agraris dengan sektor pertanian yang besar memiliki peran strategis dalam mengadopsi praktik pertanian berkelanjutan. Pemanfaatan bioslurry dapat menjadi solusi ganda: mengurangi limbah organik dan meningkatkan produktivitas pertanian secara berkelanjutan.
 
 Dengan memahami hubungan antara pemanfaatan bioslurry dan dampaknya terhadap pertanian, kita bisa:
-
 Menyusun kebijakan pertanian dan lingkungan yang lebih bijak.
 Memberikan rekomendasi solusi untuk menjaga kesuburan tanah sekaligus mendukung ketahanan pangan.
-Definisi Pupuk Organik Cair/Padat (Bioslurry)
+
+**Definisi Pupuk Organik Cair/Padat (Bioslurry)**
 Bioslurry adalah residu (limbah) yang dihasilkan dari proses pencernaan anaerobik (digester biogas) limbah organik seperti kotoran ternak, sisa tanaman, atau limbah rumah tangga. Bioslurry mengandung nutrisi tanaman yang kaya (nitrogen, fosfor, kalium, dan unsur mikro lainnya) serta bahan organik yang dapat meningkatkan kesuburan tanah. Bioslurry dapat berupa cair (setelah dipisahkan dari padatan) atau padat (setelah dikeringkan).
 
 🎯 Tujuan Analisis
@@ -34,14 +40,14 @@ Menyediakan visualisasi data yang jelas dan informatif sebagai bukti visual hubu
 Memberikan informasi berbasis data yang dapat digunakan oleh berbagai pihak untuk mendukung kebijakan dan aksi pertanian berkelanjutan.
 🌱 Manfaat Analisis
 
-Pihak	Manfaat
-Pemerintah	Landasan ilmiah untuk kebijakan pertanian organik dan subsidi pupuk
-Petani	Peningkatan produktivitas, pengurangan biaya pupuk, dan kesehatan tanah
-Lingkungan	Pengurangan limbah organik, penurunan emisi gas rumah kaca, dan mitigasi pencemaran tanah/air
-Masyarakat	Peningkatan kualitas produk pertanian dan kesadaran akan pertanian berkelanjutan
+|Pihak|Manfaat|
+|---|---|
+|Pemerintah|Landasan ilmiah untuk kebijakan pertanian organik dan subsidi pupuk
+|Petani|Peningkatan produktivitas, pengurangan biaya pupuk, dan kesehatan tanah
+|Lingkungan|Pengurangan limbah organik, penurunan emisi gas rumah kaca, dan mitigasi pencemaran tanah/air
+|Masyarakat|Peningkatan kualitas produk pertanian dan kesadaran akan pertanian berkelanjutan
 
 
-Ekspor ke Spreadsheet
 🗂️ 2. Pembuatan Data Set
 
 Data yang digunakan dalam proyek ini adalah data sintetis yang disusun untuk mensimulasikan hubungan antara pemanfaatan bioslurry, produktivitas lahan, penggunaan pupuk kimia, dan jumlah limbah organik yang dikelola di Indonesia.
@@ -61,14 +67,14 @@ Data dibangkitkan menggunakan Python (pandas, numpy) dengan rentang waktu tahun 
 
 📌 Batasan dan Asumsi
 
-Variabel	Penjelasan
-Tahun	Rentang waktu 2010-2024.
-Bioslurry_Dimanfaatkan_Ton	Dibuat dengan nilai acak antara 1.000–5.000 ton, kemudian ditambahkan tren tahunan linear (×200/tahun) untuk mensimulasikan peningkatan adopsi.
-Produktivitas_Lahan_Ton_ha	Dibuat dari distribusi acak uniform antara 3–8 ton/ha, dengan tren meningkat agar mencerminkan dampak positif bioslurry.
-Penggunaan_Pupuk_Kimia_Ton	Nilai acak 50.000–100.000 ton, lalu ditambah tren menurun sebesar 1.500 ton per tahun dari 2010, mensimulasikan pengurangan ketergantungan.
-Limbah_Organik_Terkelola_Ton	Nilai acak antara 5.000–15.000 ton, ditambah pertumbuhan 500 ton per tahun, untuk merefleksikan peningkatan pengelolaan limbah.
+|Variabel|Penjelasan|
+|---|---|
+|Tahun|Rentang waktu 2010-2024.|
+|Bioslurry_Dimanfaatkan_Ton|Dibuat dengan nilai acak antara 1.000–5.000 ton, kemudian ditambahkan tren tahunan linear (×200/tahun) untuk mensimulasikan peningkatan adopsi.|
+|Produktivitas_Lahan_Ton_ha|Dibuat dari distribusi acak uniform antara 3–8 ton/ha, dengan tren meningkat agar mencerminkan dampak positif bioslurry.|
+|Penggunaan_Pupuk_Kimia_Ton|Nilai acak 50.000–100.000 ton, lalu ditambah tren menurun sebesar 1.500 ton per tahun dari 2010, mensimulasikan pengurangan ketergantungan.|
+|Limbah_Organik_Terkelola_Ton|Nilai acak antara 5.000–15.000 ton, ditambah pertumbuhan 500 ton per tahun, untuk merefleksikan peningkatan pengelolaan limbah.|
 
-Ekspor ke Spreadsheet
 🧪 Kode Generate Data
 
 ```Python
