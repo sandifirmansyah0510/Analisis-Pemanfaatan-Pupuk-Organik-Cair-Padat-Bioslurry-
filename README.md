@@ -3,7 +3,7 @@
 
 **ABSEN : 10.006.DB2025**
 
-**ASAL : BETS 10 , TANJUNG JABUNG BARAT**
+**TEMPAT TINGGAL : KAB.TANJUNG JABUNG BARAT,PROV.JAMBI**
 
 
 # 🌿 Pupuk Organik Cair/Padat (Bioslurry)
